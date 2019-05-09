@@ -17,6 +17,7 @@ None,Brak
 "You need more permissions to save this setting.","Potrzebujesz więcej uprawnień, aby zapisać to ustawienie."
 "Role Scopes","Zakresy ról"
 Custom,Niestandardowe
+"You don't have permissions to save this item in scope of current store view. Please, switch to allowed store view","Nie posiadasz uprawnień, aby zapisać ten element w zakresie bieżącego sklepu. Przełącz na sklep, do którego masz dostęp"
 "More permissions are needed to delete the ""%1"" item.","Do usunięcia elementu ""%1"" potrzebnych jest więcej uprawnień."
 "This entity needs to be assigned to a store view. Verify the entity assignment and try again.","Ten podmiot musi być przypisany do widoku sklepu. Sprawdź przypisanie i spróbuj ponownie."
 "Orders can only be completed in an active store. Verify the store and try again.","Zamówienia mogą być realizowane tylko w aktywnym sklepie. Zweryfikuj sklep i spróbuj ponownie."
@@ -216,7 +217,13 @@ File,Plik
 "SKU not found in catalog.","Brak SKU w katalogu."
 "This file needs to be in .csv format.","Ten plik musi być w formacie .csv."
 "This customer couldn't be found. Verify the customer and try again.","Nie odnaleziono klienta. Zweryfikuj klienta i spróbuj ponownie."
+"This store couldn't be found. Verify the store and try again.","Nie odnaleziono sklepu. Zweryfikuj sklep i spróbuj ponownie."
 "An error occurred. For details, see the error log.","Wystąpił błąd. Aby uzyskać szczegółowe informacje zajrzyj do dziennika błędów."
+"The ordered item needs to be loaded. Load the item and try again.","Element zamówienia musi zostać załadowany. Załaduj element i spróbuj ponownie."
+"The quote item ID needs to be received. Set the ID and try again.","Identyfikator elementu zapytania jest wymagany. Ustaw identyfikator i spróbuj ponownie."
+"The quote item needs to be loaded. Load the item and try again.","Element zapytania musi zostać załadowany. Załaduj element i spróbuj ponownie."
+"The wish list item ID needs to be received. Set the ID and try again.","Identyfikator elementu na liście życzeń jest wymagany. Ustaw identyfikator i spróbuj ponownie."
+"The wish list item needs to be loaded. Load the item and try again.","Element listy życzeń musi zostać załadowany. Załaduj element i spróbuj ponownie."
 "The file is corrupt and can't be used.","Plik jest uszkodzony i nie może być użyty."
 "Please correct the data sent.","Proszę poprawić wprowadzone dane."
 "Entity type model '%1' is not found","Nie znaleziono typu modelu '%1'"
@@ -2150,6 +2157,7 @@ Scroll,Przewijanie
 "If empty, we'll automatically set the width value in pixels.","Jeśli puste, automatycznie ustawimy szerokość w pikselach."
 "Catalog Events Carousel Default Template","Domyślny szablon karuzeli zdarzeń katalogu"
 "Category ID","ID kategorii"
+Start,Początek
 End,Koniec
 "Countdown Ticker",Odliczanie
 "Edit Event...","Edycja zdarzenia..."
@@ -3549,12 +3557,20 @@ Addresses,"Książka adresowa"
 "Leave empty for default (2). Valid range: 1-4","Pozostaw puste dla domyślnej wartości (2). Dozwolone wartości: 1-4"
 "Last Logged In","Ostatnio zalogowano"
 "You are signed out.","Jesteś wylogowany."
+"Default billing address has been changed.","Domyślny adres rozliczeniowy został zmodyfikowany."
+"We can't change default billing address right now.","Domyślny adres rozliczeniowy nie może zostać zmodyfikowany."
+"Default shipping address has been changed.","Domyślny adres dostawy został zmodyfikowany."
+"We can't change default shipping address right now.","Domyślny adres dostawy nie może zostać zmodyfikowany."
 Street,Ulica
 "Set as default billing","Ustaw jako domyślny adres rozliczeniowy"
 "Set address as default billing","Ustaw jako domyślny adres rozliczeniowy"
 "Are you sure you want to set the address as default billing address?","Czy na pewno chcesz ustawić ten adres jako domyślny adres rozliczeniowy?"
+"Set as default shipping","Ustaw jako domyślny adres dostawy"
+"Set address as default shipping","Ustaw jako domyślny adres dostawy"
+"Are you sure you want to set the address as default shipping address?","Czy na pewno chcesz ustawić ten adres jako domyślny adres dostawy?"
 State,Województwo
 "The customer does not have default billing address","Klient nie posiada domyślnego adresu rozliczeniowego"
+"The customer does not have default shipping address","Klient nie posiada domyślnego adresu dostawy"
 "Delete Orphan Balances","Usuń bilans sierot"
 "Balance Change","Zmiana bilansu"
 Balance,Bilans
@@ -3681,7 +3697,8 @@ available,dostępne
 "A row with this email, website, and finance website combination already exists.","Wiersz posiadający kombinację tego adresu e-mail, strony oraz strony finansowej już istnieje."
 "Data was imported by %1","Dane zostały zaimportowane przez %1"
 "Reward Points","Punkty lojalnościowe"
-"Customer Address %1 is set as default billing address and can not be deleted","Adres %1 jest wybrany jako domyślny adres rozliczeniowy i nie może zostać usunięty"
+"Customer Address %1 is set as default billing address and can not be deleted","Adres %1 jest domyślnym adresem rozliczeniowym i nie może zostać usunięty"
+"Customer Address %1 is set as default shipping address and can not be deleted","Adres %1 jest domyślnym adresem dostawy i nie może zostać usunięty"
 "Please specify a website.","Proszę określić stronę internetową."
 "Please specify an email.","Proszę podać e-mail."
 "We found an invalid value in a website column.","Znaleźliśmy nieprawidłową wartość w kolumnie strony."
@@ -3697,6 +3714,7 @@ available,dostępne
 "Invalid value in Store column (store does not exists?)","Nieprawidłowa wartość w kolumnie Sklep (sklep nie istnieje?)"
 "We can't find that email and website combination.","Nie możemy znaleźć tej kombinacji e-maila i strony internetowej."
 "Please enter a password with a valid length.","Proszę wprowadzić hasło o prawidłowej długość."
+"An email wasn't specified. Enter the email and try again.","Adres email jest wymagany, Wprowadź adres email i spróbuj ponownie."
 Segments,Segmenty
 "Add Segment","Dodaj segnemt"
 "Refresh Segment Data","Odśwież dane segmentu"
@@ -8540,6 +8558,7 @@ Account,Konto
 "Dictionary (Translation on Storefront side)","Słownik (tłumaczenie na stronie sklepu)"
 "Embedded (Translation on Admin side)","Wbudowany (tłumaczenie na stronie admina)"
 "Error while translating phrase ""%s"" in file %s.","Błąd podczas tłumaczenia zdania ""%s"" w pliku %s."
+"Error while generating js translation dictionary: ""%s""","Wystąpił błąd w trakcie generowania tłumaczeń JavaScript: ""%s"""
 "Translation Strategy","Strategia tłumaczenia"
 Translations,Tłumaczenia
 "Translation files","Pliki z tłumaczeniami"
