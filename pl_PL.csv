@@ -3577,7 +3577,12 @@ Street,Ulica
 "Set as default shipping","Ustaw jako domyślny adres dostawy"
 "Set address as default shipping","Ustaw jako domyślny adres dostawy"
 "Are you sure you want to set the address as default shipping address?","Czy na pewno chcesz ustawić ten adres jako domyślny adres dostawy?"
+"Delete address","Usuń adres"
+"Are you sure you want to delete the address?","Czy na pewno chcesz usunąć ten adres?"
+"Additional addresses","Dodatkowe adresy"
 State,Województwo
+"Update Address","Aktualizuj adres"
+"Are you sure to delete selected address?","Czy na pewno chcesz usunąć wybrany adres?"
 "The customer does not have default billing address","Klient nie posiada domyślnego adresu rozliczeniowego"
 "The customer does not have default shipping address","Klient nie posiada domyślnego adresu dostawy"
 "Delete Orphan Balances","Usuń bilans sierot"
@@ -5436,6 +5441,8 @@ Wishlist,Schowek
 "Your order number is: ","Numer twojego zamówienia to: "
 "Ship to:","Dane dostawy:"
 Error:,Błąd:
+"Verify the shipping address information and continue.","Sprawdź adres dostawy i kontynuuj."
+"Verify the billing address information and continue.","Sprawdź adres rozliczeniowy i kontynuuj."
 "MySQL Message Queue Cleanup","Porządkowanie kolejki komunikatów MySQL"
 "All the times are in minutes. Use ""0"" if you want to skip automatic clearance.","Wszystkie wartości powinny być podane w minutach. Użyj ""0"", aby zrezygnować z automatycznego czyszczenia."
 "Retry Messages In Progress After","Ponów wiadomości po postępie"
@@ -5450,6 +5457,7 @@ Error:,Błąd:
 Qty:,Ilość:
 "Qty: ","Ilość: "
 "The changes have been saved.","Zmiany zostały zapisane."
+"Unable to update shipping address","Nie można zaktualizować adresu dostawy"
 "Cannot save comment:\n%1","Nie można zapisać komentarza:\n%1"
 "Products %1","Produkty %1"
 Comments,Komentarze
@@ -5463,6 +5471,7 @@ Expires,Wygasa
 "Shipping address","Adres dostawy"
 "Shipping method","Metoda dostawy"
 Created:,Utworzono:
+"Select Existing Address","Wybierz istniejący adres"
 "No shipping information available","Brak informacji o wysyłce"
 "Select a shipping address from your address book.","Wybierz adres dostawy z książki adresowej."
 "Thank you,","Dziękuję,"
@@ -6202,6 +6211,8 @@ error345,błąd345
 Carts,Koszyki
 "Manage carts","Zarządzaj koszykami"
 error123,błąd123
+"Please check the shipping address information.","Proszę sprawdzić adres dostawy."
+"Please check the billing address information.","Proszę sprawdzić adres rozliczeniowy."
 "This rule is assigned to %1 automated reminder rule(s). Deleting this rule will automatically unassign it.","Powiązane reguły automatycznego przypomnienia: %1. Usunięcie pozycji spowoduje usunięcie tych powiązań."
 "Automated Email Marketing Reminder Rules","Edytuj zasady automatycznego przypominania reguł marketingowych email"
 "Are you sure you want to match this rule now?","Czy na pewno chcesz dopasować tę regułę?"
@@ -8664,6 +8675,7 @@ Keyword,"Słowo kluczowe"
 "Please enter a valid URL Key (Ex: ""example-page"", ""example-page.html"" or ""anotherlevel/example-page"").","Wprowadź prawidłowy klucz URL (np: ""przykład Strona"", ""przykład page.html"" lub ""anotherlevel/przykład Strona"")."
 "Please enter a valid zip code.","Prosimy o wprowadzenie poprawnego kodu pocztowego."
 "Please select State/Province.","Prosimy o wybór regionu."
+"Please enter valid email addresses, separated by commas. For example, johndoe@domain.com, johnsmith@domain.com.","Wpisz prawidłowe adresy e-mail w formacie jan.kowalski@domena.pl, oddzielając je przecinkami."
 "Please enter issue number or start date for switch/solo card type.","Prosimy o podanie numeru wydania lub daty rozpoczęcia dla kart typu switch/solo."
 "Please enter positive number in this field.","Proszę podać dodatnią wartość w tym polu."
 "Please enter a valid value, ex: 10,20,30","Prosimy o wprowadzenie poprawnej wartości np. 10,20,30"
@@ -9312,6 +9324,7 @@ Translate,Przetłumacz
 "Incorrect credit card expiration date.","Nieprawidłowa data wygaśnięcia karty."
 "Please enter valid SKU key.","Proszę wpisać prawidłową nazwę SKU."
 "Please enter a valid number.","Proszę wpisać poprawną cyfrę."
+"Password cannot be the same as email address.","Hasło nie może być takie samo jak adres e-mail."
 "Please enter the same value again.","Wpisz ponownie tę samą wartość."
 "Please enter a date between %min and %max.","Prosimy wprowadzić datę między % min i % max."
 "Please enter a valid month (1-12).","Prosimy wpisać poprawny miesiąc (1-12)."
@@ -9319,3 +9332,4 @@ Translate,Przetłumacz
 "Please enter a valid day (1-%1).","Prosimy wpisać poprawny dzień (1-%1)."
 "Please enter a date from the past.","Prosimy wprowadzić datę z przeszłości."
 "Maximum length of this field must be equal or less than %1 symbols.","Maksymalna długość pola musi być równa lub mniejsza niż %1 symboli."
+"The password can't be the same as the email address. Create a new password and try again.","Hasło nie może być takie samo jak adres e-mail. Utwórz nowe hasło i spróbuj ponownie."
