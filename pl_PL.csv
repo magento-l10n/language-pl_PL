@@ -2948,6 +2948,7 @@ Duplicated,Duplikat
 "Add New Role","Dodaj rolę"
 "Edit Role","Edytuj rolę"
 "Roles and Permissions","Role i uprawnienia"
+"The item was successfully moved.","Element został pomyślnie przesunięty."
 "The team was successfully deleted.","Zespół został poprawnie usunięty."
 "The team was successfully updated.","Zespół został poprawnie zaktualizowany."
 "The team was successfully created.","Zespół został poprawnie utworzony."
@@ -2957,8 +2958,12 @@ Duplicated,Duplikat
 Rejected,Odrzucone
 Blocked,Zablokowany
 "The company admin cannot be moved to a different location in the company structure.","Administrator firm nie może być przeniesiony do innej pozycji w strukturze firmy."
+"A user or a team cannot be moved under itself.","Użytkownik lub zespół nie może zostać przesunięty pod siebie samego."
 "Unable to move customer structure.","Nie można przenieść struktury klientów."
 "Cannot delete company with id %1","Nie można usunąć firmy z id %1"
+"No company admin email is specified in request.","Adres email firmy nie został zdefiniowany w żądaniu."
+"The user %1 is the company admin and cannot be set to inactive. You must set another user as the company admin first.","Użytkownik %1 jest administratorem firmy, dlatego nie może zostać ustawić jako nieaktywny. Aby kontynuować wybierz innego użytkownika jako administrator firmy."
+"Invalid attribute value. Cannot change company for a company admin.","Nieprawidłowa wartość atrybutu. Nie można zmienić przypisanej firmy administratorowi firmy."
 "Company admin","Administrator firmy"
 "Company user","Użytkownik firmy"
 "Individual user","Indywidualny użytkownik"
@@ -2970,14 +2975,23 @@ Blocked,Zablokowany
 "No such entity with %fieldName = %fieldValue","Nie znaleziono %fieldName = %fieldValue"
 "This role cannot be deleted because users are assigned to it. Reassign the users to another role to continue.","Rola nie może zostać usunięta, ponieważ są przypisani do niej użytkownicy. Przypisz użytkowników do innej roli aby kontynuować."
 "You cannot delete a role when it is the only role in the company. You must create another role before deleting this role.","Nie można usunąć roli, która jest jedyną rolą w firmie. Przed usunięciem tej roli utwórz nową rolę."
+"User role with this name already exists. Enter a different name to save this role.","Rola użytkownika o takiej samej nazwie już istnieje. Wprowadź inna nazwę aby zapisać rolę."
 "Cannot delete role with id %1","Nie można usunąć roli z id %1"
+"Type %1 is not an instance of %2","%1 nie jest instancją %2"
+"The selected user is inactive. To continue, select another user or activate the current user.","Wybrany użytkownik jest nieaktywny. Aby kontynuować, aktywuj użytkownika lub wybierze innego użytkownika."
+"This customer is a user of a different company. Enter a different email address to continue.","Wskazany klient jest przypisanym użytkownikiem innej firmy. Aby kontynuować wprowadź inny adres email."
+"Company with this email address already exists in the system. Enter a different email address to continue.","Firma o tym adresie email już istnieje w systemie. Aby kontynuować wprowadź inny adres email."
 "Could not save company: %1","Nie można zapisać firmy: %1"
 "Cannot delete structure with id %1","Nie można usunąć struktury z id %1"
+"Could not create team","Nie można utworzyć zespołu"
 "This team has child users or teams aligned to it and cannot be deleted. Please re-align the child users or teams first.","Zespół nie może zostać usunięty, ponieważ posiada przypisanych użytkowników lub powiązane inne zespoły. Przed usunięciem przeorganizuj użytkowników lub zespoły."
+"Could not update team","Nie można zaktualizować zespołu"
 "Cannot delete team with id %1","Nie można usunąć zespołu o id %1"
+"You cannot assign a different role to a company admin.","Nie można przypisać innej roli do administratora firmy."
 "You cannot assign multiple roles to a user.","Nie można przypisać użytkownikowi wielu ról."
 "Cannot delete the company admin. Delete operation has been stopped. Please repeat the action for the other customers.","Nie można usunąć użytkownika, który jest administratorem firmy. Operacja usuwania została wstrzymana. Spróbuj ponownie dla innego użytkownika."
 "Something went wrong","Coś poszło nie tak"
+"This customer company account is blocked and customer cannot place orders.","Konto użytkownika firmy zostało zablokowane i nie ma możliwości składania zamówień."
 " - Duplicated"," - Duplikat"
 "Exception message","Komunikat wyjątku"
 "Localized Exception.","Zlokalizowanie wyjątku."
@@ -3059,22 +3073,83 @@ Suffix,Przyrostek
 "Create New Customer","Utwórz klienta"
 "Create New Company Account","Utwórz konto firmowe"
 Users,Użytkownicy
+"Reimburse Balance","Rozlicz saldo"
+"Are you sure you want to cancel this order? The order amount will not be reverted to %1 because the company is not active.","Czy na pewno chcesz anulować zamówienie? Wartość zamówienia nie zostanie zwrócona %1, ponieważ konto firmy nie jest aktywne."
+"Are you sure you want to cancel this order? The order amount will not be reverted to %1 because the company associated with this customer does not exist.","Czy na pewno chcesz anulować zamówienie? Wartość zamówienie nie będzie zwrócona na konto kredytowe %1, ponieważ konto firmy powiązane z tym kątem już nie istnieje."
+"Company Credit","Limit kredytowy firmy"
+"Order is canceled. We reverted %1 to the company credit.","Zamówienie anulowano. Zwrócono %1 na firmowe konto kredytowe."
+"Order is canceled. The order amount is not reverted to the company credit.","Zamówienie anulowano. Wartość zamówienia nie została zwrócona na firmowe konto kredytowe."
+"Order is cancelled. The order amount is not reverted to the company credit because the company to which this customer belongs does not exist.","Zamówienie anulowano. Wartość zamówienie nie będzie zwrócona na konto kredytowe firmy, ponieważ konto firmy powiązane z tym kątem już nie istnieje."
+unavailable.,niedostępny.
+"We can't save the credit memo because the company associated with this customer does not exist.","Nie można zapisać faktury korygującej, ponieważ nie istnieje konto firmowe powiązane z tym użytkownikiem."
+"We can't save the credit memo because the company associated with customer is not active.","Nie można zapisać faktury korygującej, ponieważ konto firmowe powiązane z tym użytkownikiem nie jest aktywne."
 "The requested Payment Method is not available.","Wybrana metoda płatności nie jest dostępna."
+"Payment On Account cannot be used for this order because your order amount exceeds your credit amount.","Płatność limitem kredytowym nie może zostać użyta, ponieważ wartość Twojego zamówienia przekracza dostępny limit kredytowy."
+"The selected currency is not available. Please select a different currency.","Wybrana waluta nie jest dostępna. Proszę wybierz inną walutę."
+"Requested company is not found. Row ID: %fieldName = %fieldValue.","Firma nie została znaleziona. rekord ID: %fieldName = %fieldValue."
+"Cannot delete credit limit with id %1","Nie można usunąć limit kredytowego o id %1"
+Allocated,Przydzielono
 Updated,Zaktualizowano
 Purchased,Zakupiono
+Reimbursed,Rozliczono
 Reverted,Odwrócony
+"Could not save company credit limit","Nie można zapisać limitu kredytowego firmy"
+"Invoice created for %1","Utworzono fakturę dla %1"
+"The selected credit currency is not valid. 
+                        Customers will not be able to place orders until you update the credit currency.","Wybrana waluta limitu kredytowego nie jest poprawna. 
+                        Zaktualizuj walutę limitu kredytowego aby klienci mogli składać zamówienia."
 "Store Credit","Kredyt w sklepie"
+"Refund to Company Credit","Zwrot na limit kredytowy firmy"
 "We refunded %1 online.","Zwracamy %1 online."
 "We refunded %1 offline.","Zwracamy %1 online."
+"We refunded %1 to the company credit.","Zwrócono %1 na firmowe konto kredytowe."
+"Exception message.","Komunikat wyjątku."
+"Exception Message","Komunikat wyjątku"
 "No such entity","Brak tego obiektu"
 "Order # %1","Zamówienie #%1"
+"Outstanding Balance:",Saldo:
+"Available Credit:","Dostępny limit kredytowy:"
+"Credit Limit:","Limit kredytowy:"
 "Purchase Order Number","Numer wykupienia zamówienia:"
 "Purchase Order Number: %1","Wykup zamówienie: %1"
+"Outstanding Balance",Saldo
+"Available Credit","Dostępne Kredyty"
+"Credit Limit","Limit kredytowy"
+"Credit allocated to %company_name","Kredyt przydzielony dla %company_name"
+"The history of your credit operations is available on the Company Credit page.","Historia operacji kredytowych jest dostępna na stronie Limit kredytowy firmy."
+"%company_name account reimbursed","%company_name konto zostało rozliczone"
+"Your company credit account has been reimbursed by %reimbursed_amount.","Twoje firmowe konto kredytowe zostało rozliczone kwotą %reimbursed_amount."
+"If you have any questions, please contact the seller.","Jeśli masz jakiekolwiek pytania, skontaktuj się z sprzedawcą."
+"%company_name credit limit updated","Limit kredytowy firmy %company_name został zaktualizowany"
+"Your credit limit has been updated and is now %available_credit.
+    Your outstanding balance currently totals %outstanding_balance. You are %exceed_limit to exceed the credit limit.","Twój limit kredytowy został zaktualizowany i aktualnie wynosi %available_credit.
+    Twoje saldo aktualnie wynosi %outstanding_balance. Jesteś %exceed_limit do przekroczenia limitu kredytowego."
+"Order %order_id reverted","Zamówienie %order_id zostało cofnięte"
+"Your order #%order_id has been cancelled. The order amount reverted to the company credit.","Twoje zamówienie #%order_id zostało anulowane. Kwota zamówienia została przywrócona do kredytu firmowego."
+"Available Credit ","Dostępny limit kredytowy "
+"The Payment on Account method is not available in the selected currency. Please contact the seller.","Płatność limitem kredytowym nie jest dostępna dla wybranej waluty. Proszę skontaktuj się z sprzedawcą."
+"Company credit account will be charged: ","Firmowe konto kredytowe zostanie obciążone: "
 "Cancel the Order","Anuluj zamówienie"
 "This is a required field.","To jest wymagane pole."
+Reimburse,Rozlicz
+"Please use only letters (a-z or A-Z), numbers (0-9), dash (-) or slash (/) in this field.","Prosimy o używanie jedynie liter (a-z lub A-Z), cyfr (0-9), myślnika (-) lub ukośnika (/) w tym polu."
+"Payment on Account","Płatność limitem kredytowym"
+"Company Credit Change Email Sender","Nadawca wiadomości e-mail o zmianie kredytu firmowego"
+"Send Email Copy Method","Metoda wysyłki kopii e-mail"
+"Allocated Email Template","Szablon email przydzielenia limitu kredytowego"
+"This email is sent to the Company Admin.","Wiadomość została wysłana do administratora firmy."
+"Reimbursed Email Template","Szablon email rozliczenia"
+"Credit Currency","Waluta kredytu"
+"Allow To Exceed Credit Limit","Pozwól na przekroczenie limitu kredytowego"
+"Reason For Change","Powód zmiany"
+"
+                                Maximum 255 characters are allowed.
+                        ","                                Maksymalnie 255 znaków jest dozwolone.
+                        "
 Rate,Stawka
 Date,Data
 Operation,Operacja
+"Updated By","Zaktualizowane przez"
 "Purchase Order","Wykup zamówienie"
 "Payment Methods","Metody płatności"
 "Default Config","Domyślna konfiguracja"
@@ -3185,7 +3260,6 @@ Configurations,Konfiguracje
 "You can't add the item to shopping cart.","Nie można dodać produktu do koszyka."
 "Some product variations fields are not valid.","Niektóre pola kombinacji produktu nie są prawidłowe."
 "Configuration must have specified attributes","Konfiguracja musi mieć określone atrybuty"
-"Type %1 is not an instance of %2","%1 nie jest instancją %2"
 "Choose Affected Attribute Set","Wybierz zestaw atrybutów"
 Confirm,Potwierdź
 "New Attribute Set Name","Nazwa nowego zestawu cech"
