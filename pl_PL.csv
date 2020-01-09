@@ -2717,7 +2717,7 @@ items,produkty
 "Select Method","Wybierz metodę"
 "Method Title","Nazwa metody"
 "Carrier Title","Nazwa dostawcy"
-"Sorry, no quotes are available for this order at this time","Niestety, żadne możliwości nie są dostępne dla tego zamówienia w chwili obecnej"
+"Sorry, no quotes are available for this order at this time","Przepraszamy, żadne oferty nie są dostępne dla tego zamówienia w tym momencie"
 "Item in Cart","Produkty w koszyku"
 "Items in Cart","Produkty w koszyku"
 "Require Customer To Be Logged In To Checkout","Wymaga zalogowania klienta do złożenia zamówienia"
@@ -5787,7 +5787,7 @@ Wishlist,Schowek
 "Grand Total:",Łącznie:
 "Submitting order information...","Przetwarzanie zamówienia..."
 "Address %1 <span>of %2</span>","Adres %1 <span>z %2</span>"
-"Sorry, no quotes are available for this order right now.","Przepraszamy cudzysłowie nie jest dostępne dla tego zamówienia już teraz."
+"Sorry, no quotes are available for this order right now.","Przepraszamy, żadne oferty nie są dostępne dla tego zamówienia w tym momencie."
 "Continue to Billing Information","Przejdź dalej do szczegółów płatności"
 "Back to Select Addresses","Wróć do wyboru adresów"
 "We can't complete your order because you don't have a payment method set up.","Nie możemy dokończyć zamówienia ponieważ nie masz ustawionej metody płatności."
