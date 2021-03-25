@@ -1,8 +1,17 @@
 All,Wszystko
 None,Brak
 "Allowed Scopes","Dopuszczalne zakresy"
+"More permissions are needed to delete the ""%1"" item.","Więcej uprawnień jest potrzebnych do usunięcia elementu ""%1""."
 "You need more permissions to apply some of the rule updates.","Potrzebujesz więcej uprawnień do stosowania niektórych reguł aktualizacji."
+"More permissions are needed to view this item.","Dodatkowe uprawnienia są potrzebne do wyświetlenia tego elementu."
+"This entity needs to be assigned to a store view. Verify the entity assignment and try again.","Ten obiekt musi być przypisany do widoku sklepu. Sprawdź przypisanie i spróbuj ponownie."
+"This item needs to be assigned to a store view.
+                Please select a website for this product in ""Product in Websites"".","Ten element musi być przypisany do widoku sklepu.
+                Wybierz stronę internetową dla tego produktu w ""Produkt w witrynach internetowych""."
+"Orders can only be completed in an active store. Verify the store and try again.","Zamówienia mogą być realizowane tylko w aktywnym sklepie. Zweryfikuj sklep i spróbuj ponownie."
+"This item needs to be assigned to a store view. Assign item and try again.","Ten element musi być przypisany do widoku sklepu. Przypisz element i spróbuj ponownie."
 "More permissions are needed to save this item.","Więcej uprawnień jest potrzebnych do zapisania tego elementu."
+"More permissions are needed to delete this item.","Dodatkowe uprawnienia są potrzebne do usunięcia tego elementu."
 "You need more permissions to access website ""%1"".","Potrzebujesz więcej uprawnień do dostępu do witryny ""%1""."
 "Role Scopes","Zakresy ról"
 Custom,Niestandardowe
@@ -99,7 +108,6 @@ Customers,Klienci
 "Shopping Cart",Koszyk
 "An error occurred. For details, see the error log.","Wystąpił błąd. Aby uzyskać więcej informacji, zobacz dziennik błędów."
 "You do not have access to this.","Nie posiadasz dostępu do tej sekcji."
-"Orders can only be completed in an active store. Verify the store and try again.","Zamówienia mogą być realizowane tylko w aktywnym sklepie. Zweryfikuj sklep i spróbuj ponownie."
 "The ordered item needs to be loaded. Load the item and try again.","Zamówiony przedmiot musi zostać załadowany. Załaduj przedmiot i spróbuj ponownie."
 "The quote item ID needs to be received. Set the ID and try again.","Identyfikator produktu oferty musi zostać odebrany. Ustaw ID i spróbuj ponownie."
 "The quote item needs to be loaded. Load the item and try again.","Element oferty musi zostać załadowany. Załaduj element i spróbuj ponownie."
