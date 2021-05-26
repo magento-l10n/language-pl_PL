@@ -3314,6 +3314,7 @@ Used,Wykorzystane
 "There is no credit memo set to balance model.","Brak noty kredytowej przypisanej do modelu wyliczania sumy koszyka."
 "Order #%1, creditmemo #%2","Zamówienie nr %1, korekta nr %2"
 "There is no order set to balance model.","Brak zamówienia przypisanego do modelu wyliczania sumy koszyka."
+"We refunded %1 to Store Credit","Zwrot %1 na konto kredytu kupieckiego"
 "You do not have enough store credit to complete this order.","Nie masz wystarczająco dużo kredytu sklepu do wykonania niniejszego zamówienia."
 "Store Credit Balance","Saldo kredytu kupieckiego"
 "Balance History","Historia bilansu"
