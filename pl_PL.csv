@@ -12,7 +12,12 @@ None,Brak
 "This item needs to be assigned to a store view. Assign item and try again.","Ten element musi być przypisany do widoku sklepu. Przypisz element i spróbuj ponownie."
 "More permissions are needed to save this item.","Więcej uprawnień jest potrzebnych do zapisania tego elementu."
 "More permissions are needed to delete this item.","Dodatkowe uprawnienia są potrzebne do usunięcia tego elementu."
+"At least one website or store group needs to be selected. Select and try again.","Co najmniej jedna witryna lub grupa sklepów musi być zaznaczona. Wybierz i spróbuj ponownie."
+"More permissions are needed to set All Scopes to a Role.","Więcej uprawnień jest potrzebnych, aby ustawić wszystkie zakresy na rolę."
+"The ""%1"" website ID is incorrect. Verify the website ID and try again.","Identyfikator witryny %1"" jest błędny. Zweryfikuj identyfikator witryny i spróbuj ponownie."
 "You need more permissions to access website ""%1"".","Potrzebujesz więcej uprawnień do dostępu do witryny ""%1""."
+"The ""%1"" store ID is incorrect. Verify the store ID and try again.","Identyfikator sklepu ""%1"" jest błędny. Zweryfikuj identyfikator sklepu i spróbuj ponownie."
+"More permissions are needed to save this setting.","Potrzeba większych uprawnień, aby zapisać te ustawienia."
 "Role Scopes","Zakresy ról"
 Custom,Niestandardowe
 "Read Details","Przeczytaj szczegóły"
@@ -57,6 +62,7 @@ notice,informacja
 Close,Zamknij
 "See All (","Zobacz wszystkie ("
 " unread)"," nieprzeczytane)"
+"System Messages","Wiadomości systemowe"
 "Show Toolbar","Pokaż pasek narzędzi"
 "Show List","Pokaż listę"
 "Use HTTPS to Get Feed","Używaj HTTPS do pobierania kanałów"
@@ -230,10 +236,17 @@ Yes,Tak
 "Error while checking if topic is synchronous","Błąd podczas sprawdzania, czy temat jest synchroniczny"
 "Subscription status","Status subskrypcji"
 "Sorry, there has been an error processing your request. Please try again later.","Niestety, nastąpił błąd podczas przetwarzania Twojego żądania. Proszę spróbować ponownie później."
+"The time value is using an unsupported format. Enter a supported format and try again.","Wartość czasu używa nieobsługiwanego formatu. Wprowadź obsługiwany format i spróbuj ponownie."
 "Cron settings can't be saved","Nie można zapisać ustawienia cron"
 "There was an error save new configuration value.","Wystąpił błąd. Zapisz nową wartość konfiguracji."
 "Please select an industry.","Wybierz branżę."
 "--Please Select--","--Proszę wybrać--"
+"Command ""%1"" was not found.","Polecenie ""%1"" nie zostało znalezione."
+"The data is invalid. Enter the data as a string or data that can be converted into a string and try again.","Dane są nieprawidłowe. Wprowadź dane jako ciąg znaków lub dane, które mogą zostać przekonwertowane na ciąg znaków i spróbuj ponownie."
+"The data is invalid. Enter the data as a string and try again.","Dane są nieprawidłowe. Wprowadź dane jako ciąg i spróbuj ponownie."
+"The data is invalid. Use a valid cipher method and try again.","Dane są nieprawidłowe. Użyj prawidłowej metody szyfrowania i spróbuj ponownie."
+"Enter the encryption key and try again.","Wprowadź klucz szyfrowania i spróbuj ponownie."
+"The ""%1"" source doesn't exist.","Źródło ""%1"" nie istnieje."
 "These arguments can't be empty ""%1""","Te argumenty nie mogą być puste ""%1"""
 "Cannot find predefined integration user!","Nie można znaleźć zdefiniowanego użytkownika integracji!"
 "File is not ready yet.","Plik nie jest możliwy do odczytania."
@@ -251,11 +264,20 @@ Analytics,Analityka
 Configuration,Konfiguracja
 "Business Intelligence","Inteligencja Biznesowa"
 "BI Essentials","Elementy BI"
+"This service provides a dynamic suite of reports with rich insights about your business.
+                Your reports can be accessed securely on a personalized dashboard outside of the admin panel by clicking on the
+                ""Go to Advanced Reporting"" link. </br> For more information, see our <a target=""_blank"" href=""https://magento.com/legal/terms/cloud-terms"">
+                terms and conditions</a>.","Usługa ta zapewnia dynamiczny zestaw raportów zawierających dogłębną analizę na temat Twojej firmy.                 Możesz bez problemu zobaczyć swoje raporty w spersonalizowanym pulpicie nawigacyjnym poza panelem administratora, klikając przycisk ""Przejdź do Raportowania Zaawansowanego"". </br> W celu uzyskania większej ilości informacji, zobacz nasze warunki                <a target=""_blank"" href=""https://magento.com/legal/terms/cloud-terms"">warunki</a>."
 "Advanced Reporting Service","Zaawansowane Usługi Raportowania"
 "Time of day to send data","Pora dnia do wysyłania danych"
+"Industry Data","Dane branżowe"
 Industry,Branża
 "In order to personalize your Advanced Reporting experience, please select your industry.","Aby spersonalizować środowisko Zaawansowane Raportowanie, proszę wybierz branżę."
 "<strong>Get more insights from Magento Business Intelligence</strong>","<strong>uzyskaj więcej statystyk z Magento Business Intelligence</strong>"
+"Magento Business Intelligence provides you with a simple and clear path to
+                    becoming more data driven.</br> Learn more about <a target=""_blank""
+                    href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essentials and BI Pro</a> tiers.","Magento Business Intelligence zapewnia proste i jasne ścieżki do coraz większej ilości danych.</br> Dowiedz się więcej o <a target=""_blank""
+                    href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">BI Essentials</a> warstwy."
 "Auto Parts","Części samochodowe"
 "Baby/Children’s Apparel, Gear and Toys","Dziecko/dzieci Odzież, sprzęt i zabawki"
 "Beauty and Cosmetics","Uroda i kosmetyki"
@@ -274,6 +296,7 @@ Industry,Branża
 "Pet Goods","Produkty dla zwierząt"
 "Pharma and Medical Devices","Farmacja i urządzenia medyczne"
 "Technology B2B","Technologia B2B"
+Other,Inne
 Done,Gotowe
 Retry,"Ponów próbę"
 "'Action Details - #' .","'Szczegóły akcji - #'."
@@ -8109,7 +8132,6 @@ Large,Duży
 "Service type does not match","Typ usługi nie zgadza się"
 Merchandise,"Dobra handlowe"
 Gift,Prezent
-Other,Inne
 "Secure Gateway URL","URL bezpiecznej bramki"
 Machinable,"Automatyczne pakowanie"
 "Add New Variable","Dodaj zmienną"
