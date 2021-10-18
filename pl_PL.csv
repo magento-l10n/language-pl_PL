@@ -2526,7 +2526,7 @@ Blocked,Zablokowany
 "Company user","Użytkownik firmy"
 "Individual user","Indywidualny użytkownik"
 "There was an error saving custom attributes.","Wystąpił błąd podczas zapisywania atrybutów niestandardowych."
-"Invalid value of ""%value"" provided for the %fieldName field.","Nieprawidłowa wartość ""%value"" przewidziana polu %fieldname."
+"Invalid value of ""%value"" provided for the %fieldName field.","Nieprawidłowa wartość ""%value"" przewidziana polu %fieldName."
 """%fieldName"" is required. Enter and try again.","Pole ""%fieldName"" jest wymagane. Uzupełnij i spróbuj ponownie."
 "No such entity with %fieldName = %fieldValue","Nie znaleziono %fieldName = %fieldValue"
 "This role cannot be deleted because users are assigned to it. Reassign the users to another role to continue.","Rola nie może zostać usunięta, ponieważ są przypisani do niej użytkownicy. Przypisz użytkowników do innej roli aby kontynuować."
