@@ -12,6 +12,7 @@ None,Brak
 "This item needs to be assigned to a store view. Assign item and try again.","Ten element musi być przypisany do widoku sklepu. Przypisz element i spróbuj ponownie."
 "More permissions are needed to save this item.","Więcej uprawnień jest potrzebnych do zapisania tego elementu."
 "More permissions are needed to delete this item.","Dodatkowe uprawnienia są potrzebne do usunięcia tego elementu."
+"Not allowed to edit the category's design attributes","Brak uprawnień do edycji atrybutów wyglądu kategorii"
 "At least one website or store group needs to be selected. Select and try again.","Co najmniej jedna witryna lub grupa sklepów musi być zaznaczona. Wybierz i spróbuj ponownie."
 "More permissions are needed to set All Scopes to a Role.","Więcej uprawnień jest potrzebnych, aby ustawić wszystkie zakresy na rolę."
 "The ""%1"" website ID is incorrect. Verify the website ID and try again.","Identyfikator witryny %1"" jest błędny. Zweryfikuj identyfikator witryny i spróbuj ponownie."
@@ -302,6 +303,10 @@ Retry,"Ponów próbę"
 "'Action Details - #' .","'Szczegóły akcji - #'."
 "%1 item(s) have been scheduled for update.""","%1 elementy zostały zaplanowane dla aktualizacji."""
 "Bulk Actions Log","Masowe przetwarzanie"
+"Topic %1","Temat %1"
+"Something went wrong while processing the request.","Coś poszło nie tak podczas przetwarzania zapytania."
+"Error processing %key element of input data","Błąd przetwarzania elementu %key danych wejściowych"
+"Sorry, something went wrong during product prices update. Please see log for details.","Przepraszam, coś poszło nie tak podczas aktualizacji ceny produktu. Proszę zajrzyj do dziennika błędów."
 "%1 item(s) are currently being updated.","%1 elementy są obecnie aktualizowane."
 "Task ""%1"": ","Zadanie ""%1"": "
 "%1 item(s) have been scheduled for update.","%1 elementy zostały zaplanowane do aktualizacji.""."
@@ -317,6 +322,7 @@ Dismiss,Zignoruj
 "Something went wrong.","Coś poszło nie tak."
 "Action Log","Dziennik działań"
 "Bulk Actions","Masowe przetwarzanie"
+"Action Logs","Dziennik działań"
 "Days Saved in Log","Dni, zapisane w dzienniku"
 "Description of Operation","Opis operacji"
 Summary,Podsumowanie
@@ -325,6 +331,7 @@ Summary,Podsumowanie
 "To retry, select the items and click “Retry”.","Aby ponowić próbę, zaznacz elementy i kliknij przycisk ""Ponów próbę""."
 "Items That Can’t Be Updated.","Elementy, które nie mogą być aktualizowane."
 Status,Stan
+Action,Akcja
 "Meta Information",Metainformacje
 Error,Błąd
 "Dismiss All Completed Tasks","Odrzucić wszystkie zakończone zadania"
