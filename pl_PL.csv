@@ -884,6 +884,7 @@ Database,"Baza danych"
 "The backup file handler was unspecified.","Uchwyt pliku kopii zapasowej nie został określony."
 "Something went wrong while writing to the backup file ""%1"".","Coś się zepsuło podczas zapisywania pliku kopii zapasowej ""%1""."
 "We can't save the Cron expression.","Nie możemy zapisać wyrażenia Cron."
+"Backup functionality is disabled","Funkcjonalność kopii zapasowej jest wyłączona"
 "You will lose any data created since the backup was made, including admin users, customers and orders.","Stracisz wszystkie dane utworzone od wykonania kopii zapasowej, w tym użytkowników administracyjnych, klientów i zamówienia."
 "Are you sure you want to continue?","Czy na pewno chcesz kontynuować?"
 "This may take a few moments.","To może chwilę potrwać."
@@ -906,6 +907,8 @@ Exclude,Wyłącz
 "Magento root directory","Katalog źródłowy Magento"
 "Create Backup","Wykonaj kopię"
 Rollback,Przywracanie
+"Backup Settings","Ustawienia kopii zapasowej"
+"Enable Backup","Włącz tworzenie kopii zapasowej"
 "Enable Scheduled Backup","Włącz zaplanowaną kopię"
 Frequency,Częstotliwość
 "Maintenance Mode","Tryb remontowy"
