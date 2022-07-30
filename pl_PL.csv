@@ -8576,6 +8576,7 @@ Worldpay,WorldPay
 "Backup options","Opcje kopii zapasowej"
 Warning,Ostrzeżenie
 "Insert Variable","Wstaw zmienną"
+"The widget %1 is no longer available. Select a different widget.","Widget %1 nie jest już dostępny. Wybierz inny widget."
 "Recent items","Ostatnie produkty"
 "Show all...","Pokaż wszystkie..."
 "Please enter a number greater 0 in this field.","Prosimy o podanie numeru większego od 0 w tym polu."
@@ -8583,8 +8584,11 @@ Warning,Ostrzeżenie
 "Please specify Url.","Proszę podać adres URL."
 "Method %s does not exist on jQuery.decorate","Metoda %s nie istnieje na jQuery.decorate"
 "Please wait...","Proszę czekać..."
+"All %1","Wszystkie %1"
 Translate,Przetłumacz
+"No marginal white space please","Proszę, bez marginesowej białej przestrzeni"
 "Please remove invalid characters: {0}.","Proszę usunąć niepoprawne znaki: {0}."
+"Forbidden extensions has been used. Avoid usage of ","Używano zabronionych rozszerzeń. Unikaj używania "
 "First character must be letter.","Pierwszy znak musi być literą."
 "Please select one of the options above.","Proszę wybrać jedną opcje z dostępnych."
 "Please select a file.","Proszę wybrać plik."
