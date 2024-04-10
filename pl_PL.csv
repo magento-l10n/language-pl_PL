@@ -2577,7 +2577,7 @@ Blocked,Zablokowany
 "This account is locked.","To konto jest zablokowane."
 "Your account is not yet approved. If you have questions, please contact the seller.","Twoje konto nie zostało jeszcze potwierdzone. Jeśli masz pytania, proszę skontaktuj się z doradcą."
 "There was an error saving custom attributes.","Wystąpił błąd podczas zapisywania atrybutów niestandardowych."
-"Invalid value of ""%value"" provided for the %fieldName field.","Nieprawidłowa wartość ""%value"" przewidziana polu %fieldname."
+"Invalid value of ""%value"" provided for the %fieldName field.","Nieprawidłowa wartość ""%value"" przewidziana polu %fieldName."
 """%fieldName"" is required. Enter and try again.","Pole ""%fieldName"" jest wymagane. Uzupełnij i spróbuj ponownie."
 "No such entity with %fieldName = %fieldValue","Nie znaleziono %fieldName = %fieldValue"
 "This role cannot be deleted because users are assigned to it. Reassign the users to another role to continue.","Rola nie może zostać usunięta, ponieważ są przypisani do niej użytkownicy. Przypisz użytkowników do innej roli aby kontynuować."
