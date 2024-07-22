@@ -984,7 +984,7 @@ Header,Nagłówek
 "Cart Price Rule Related","Powiązane zasady wartości koszyka"
 "Catalog Price Rule Related","Powiązane Zasady cen Katalogowych"
 "All Segments","Wszystkie segmenty"
-"Customer Segment","Segment kliencki"
+"Customer Segment","Segment klienta"
 "Allowed Credit Card Types","Dopuszczone rodzaje kart kredytowych"
 "Add Rule","Dodaj regułę"
 "Braintree Settlement Report","Raport dotyczący likwidacji Braintree"
@@ -2410,7 +2410,7 @@ items,produkty
 "Maximum Display Recently Added Item(s)","Maksymalna ilość wyświetlanych ostatnio dodanych produktów"
 of,z
 "Something went wrong while saving the page. Please refresh the page and try again.","Wystąpił błąd podczas zapisywania strony. Odśwież stronę i spróbuj ponownie."
-"You added %1 to your <a href=""%2"">shopping cart</a>.","Dodałeś %1 do Twojego <a href=""%2"">koszyka</a>."
+"You added %1 to your <a href=""%2"">shopping cart</a>.","Dodałeś %1 do <a href=""%2"">koszyka</a>."
 "Please select at least one product to add to cart","Wybierz co najmniej jeden produkt do dodania do koszyka"
 "The quote item isn't found. Verify the item and try again.","Element oferty nie został znaleziony. Zweryfikuj produkt i spróbuj ponownie."
 "The product wasn't found. Verify the product and try again.","Produkt nie został znaleziony. Zweryfikuj produkt i spróbuj ponownie."
@@ -3657,6 +3657,7 @@ matches,pasuje
 "less than","mniej niż"
 "Up To Date",Aktualne
 "Period %1 %2 Days Up To Date","Okres %1 %2 dni do daty"
+"Customer Segment","Segment kliencki"
 "Use in Customer Segment","Wykorzystaj w segmencie klienckim"
 "Enable Customer Segment Functionality","Włącz funkcję segmentacji klienckiej"
 "Refresh Data","Odśwież dane"
@@ -8613,16 +8614,18 @@ Worldpay,WorldPay
 "About Us","O Nas"
 "Backup options","Opcje kopii zapasowej"
 Warning,Ostrzeżenie
-"Insert Widget...","Wstaw Widżet..."
-"Recent items","Ostatnie produkty"
+"Insert Widget...","Wstaw widget..."
+"Recent items","Najnowsze elementy"
 "Show all...","Pokaż wszystkie..."
 "Please enter a number greater 0 in this field.","Prosimy o podanie numeru większego od 0 w tym polu."
 "Please select one of each ratings above.","Wybierz jedną z powyższych ocen."
-"Please specify Url.","Proszę podać adres URL."
+"Please specify Url.","Proszę określić adres URL."
 "Method %s does not exist on jQuery.decorate","Metoda %s nie istnieje na jQuery.decorate"
 "Please wait...","Proszę czekać..."
+Loading...,Ładowanie...
 "All ","Wszystko "
 Translate,Przetłumacz
+"The specified vehicle identification number (VIN) is invalid.","Podany numer identyfikacyjny pojazdu (VIN) jest nieprawidłowy."
 "Please remove invalid characters: {0}.","Proszę usunąć niepoprawne znaki: {0}."
 "Please use only letters (a-z), numbers (0-9) or underscore (_) in this field, and the first character should be a letter.","Prosimy o używanie jedynie liter (a-z), cyfr (0-9) lub podkreślnika (_) w tym polu, pierwszy znak powinien być literą."
 "Please select one of the options above.","Proszę wybrać jedną opcje z dostępnych."
