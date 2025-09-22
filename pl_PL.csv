@@ -120,6 +120,7 @@ Configure,Konfiguruj
 Customers,Klienci
 "Shopping Cart",Koszyk
 "You do not have access to this.","Nie posiadasz dostępu do tej sekcji."
+"Ordered item id is not received.","Identyfikator zamówionego produktu nie został otrzymany."
 "An error has occurred. See error log for details.","Wystąpił błąd. Sprawdź dziennik błędów, by uzyskać szczegółowe informacje."
 "You cannot configure a product.","Nie możesz skonfigurować produktu."
 "You removed the items.","Usunięto elementy."
